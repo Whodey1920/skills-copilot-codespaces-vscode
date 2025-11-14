@@ -54,4 +54,3 @@ export async function POST(request: Request) {
   stories.push(newStory)
   return NextResponse.json(newStory, { status: 201 })
 }
-
